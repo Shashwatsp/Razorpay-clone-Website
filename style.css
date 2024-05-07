@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.bg{
+    background-image: url(./img/feature-section-2BG.svg);
+}
+
+.img1{
+    background-image: url(./img/instant-settlement-bg.svg);
+}
+
+.img2{
+    background-image: url(/img/upi-autopay-bg.svg);
+}
+
+.img3{
+    background-image: url(/img/magic-checkout-bg.svg);
+}
+
+.img4{
+    background-image: url(/img/payment-button-bg.svg);
+}
+
+
+.img5{
+    background-image: url(/img/instantsettlement-bg.svg);
+}
+
+.coreimg{
+    background-image: url(/img/core-features-sectionBg.svg);
+    background-size: 100% 100%;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+
+.companylist{
+    animation: 10s infinite linear moveImg;
+}
+
+
+@keyframes moveImg {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: -50%;   
+    }
+}
+
+.CTAimg{
+   background-size: 100% 100%; 
+   background-image: url(./img/CTABg.svg);
+}
